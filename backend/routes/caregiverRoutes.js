@@ -7,7 +7,7 @@ const {
   updateCaregiver,
   deleteCaregiver,
   verifyCaregiver
-} = require('../controllers/caregiverController');
+} = require('../controllers/careController');
 const { protect, adminOnly } = require('../middleware/authMiddleware');
 
 router.get('/', getCaregivers);
